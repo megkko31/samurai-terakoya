@@ -1,0 +1,256 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPydJnudwo6e3nEghOWSuc2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/megkko31/samurai-terakoya/blob/main/python-basic-kadai\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number1 = 5\n",
+        "number2 = 10\n",
+        "print(number1*number2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Kap-W5qQwghZ",
+        "outputId": "2843855b-3e80-428f-83c6-6f64ca06a988"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "50\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "4gOW7KwYS1L2"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# 連想配列を作成\n",
+        "personal_data = {\"name\": \"侍太郎\", \"age\": 36, \"gender\": \"男性\"}\n",
+        "\n",
+        "# キー「name」の値を表示\n",
+        "print(personal_data[\"name\"])\n",
+        "\n",
+        "# 連想配列全体を表示\n",
+        "print(personal_data)\n",
+        "\n",
+        "# キー「age」の値を更新\n",
+        "personal_data[\"age\"] = 37\n",
+        "\n",
+        "# 新しく要素（キーと値）を追加\n",
+        "personal_data[\"address\"] = \"東京都\"\n",
+        "\n",
+        "# 連想配列全体を表示\n",
+        "print(personal_data)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Llyk-VdNgUGH",
+        "outputId": "509ce60d-5e94-41cc-9f79-aa0fb350f007"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "侍太郎\n",
+            "{'name': '侍太郎', 'age': 36, 'gender': '男性'}\n",
+            "{'name': '侍太郎', 'age': 37, 'gender': '男性', 'address': '東京都'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "qhmcAhw15xhB"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "last_name   = \"侍\"\n",
+        "first_name  = \"太郎\"\n",
+        "sister_name = \"花子\"\n",
+        "# 3つの変数を文字列内に埋め込んで表示\n",
+        "print(f\"私の名前は{last_name}{first_name}です。妹の名前は{sister_name}です。\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "x5iBDGtByDNS",
+        "outputId": "594ec10f-a78f-4601-fc4b-ffc1f6026407"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "私の名前は侍太郎です。妹の名前は花子です。\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Top=10\n",
+        "Bottom=20\n",
+        "Height=5\n",
+        "#台形の数値\n",
+        "\n",
+        "area = (top + bottom) * height  / 2\n",
+        "#台形の面積\n",
+        "\n",
+        "print(f\"{area}cm²\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "R9h_ZLy3zH9G",
+        "outputId": "ba1428cb-d588-441a-e107-d956ccbd6914"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "75.0cm²\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "pmWSGlMl6L5u"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "sRqkOaSL6MZl"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "user_name = \"侍太郎\"\n",
+        "print(user_name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "S1fvlL1biHzR",
+        "outputId": "bf856dac-7ac7-4979-9e5c-89e79be6eedb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "侍太郎\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "9133dec3-52d1-42cc-f620-4411a122c6c7",
+        "id": "2oMbrJtUiJqy"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(30 / 3)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SDqL0mzAhuf4",
+        "outputId": "896bfe1b-12d5-463c-996c-f786d8ac49d2"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(1+2)"
+      ]
+    }
+  ]
+}
